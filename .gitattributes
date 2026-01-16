@@ -2,3 +2,4 @@ books/The[[:space:]]Linux[[:space:]]Memory[[:space:]]Manager[[:space:]]Lorenzo[[
 books/linux-kernel-debugging-billimoria.pdf filter=lfs diff=lfs merge=lfs -text
 books/linux-kernel-prog-1-billimoria.pdf filter=lfs diff=lfs merge=lfs -text
 ./books/*.pdf filter=lfs diff=lfs merge=lfs -text
+books/*.pdf filter=lfs diff=lfs merge=lfs -text
