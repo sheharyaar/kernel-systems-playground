@@ -32,7 +32,7 @@ The folder contains the following assembly programs that demonstrate various con
 |  | [`07-browncount.s`](07-browncount.s) | Counts the number of "brown" haired people in the dataset. |
 |  | [`07-lowercasecount.s`](07-lowercasecount.s) | Counts the number of lowercase letters in a string. Demonstrates `.data` and `.text` sections and string storage. |
 | **Signed/Unsigned numbers, Bitwise ops** | [`08-addsigned.s`](08-addsigned.s) | Adds two signed numbers and returns `0` if no overflow, `1` if overflow occurs. Demonstrates `jo` (jump if overflow). |
-|  | [`08-countounes.s`](08-countounes.s) | Counts the number of `1`s in a given unsigned number. Demonstrates `rol` (rotate left). |
+|  | [`08-countones.s`](08-countones.s) | Counts the number of `1`s in a given unsigned number. Demonstrates `rol` (rotate left). |
 | **System calls** | [`10-wait5.s`](10-wait5.s) | Uses `sys_time` syscall to loop until 5 seconds have passed. |
 |  | [`10-simpleoutput.s`](10-simpleoutput.s) | Outputs a string to the console using `sys_write` syscall. |
 | **Stack and function calls** | [`11-factorialstack.s`](11-factorialstack.s) | Calculates factorial by pushing numbers to the stack and popping them for multiplication. Demonstrates `push`, `pop`. |
