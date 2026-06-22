@@ -1,1 +1,2 @@
 books/*.pdf filter=lfs diff=lfs merge=lfs -text
+books/linux-kernel-programming-2-billimoria.pdf filter=lfs diff=lfs merge=lfs -text

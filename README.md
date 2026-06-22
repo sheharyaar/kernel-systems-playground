@@ -10,3 +10,7 @@ Repository to play around system programming concepts like Linux Kernel Developm
 - `system-v-abi` contains topics related to System V AMD64 ABI such as code-models, ELF, Dynamic Linking, etc.
 
 Each folder has its own README.md file which contains the description of the programs in them and the steps to build and run them.
+
+### Downloading the books
+
+The books are uploaded using `git lfs`, use `git lfs pull`.
